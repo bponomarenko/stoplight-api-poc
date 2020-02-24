@@ -1,0 +1,8 @@
+{
+  "type": "string",
+  "title": "Currency code",
+  "example": "EUR",
+  "minLength": 3,
+  "maxLength": 3,
+  "pattern": "^[A-Z]{3}$"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "title": "AmountBean",
+  "additionalProperties": false,
+  "description": "Amount object",
+  "properties": {
+    "amount": {
+      "type": "integer",
+      "description": "Amount value in minor units",
+      "minimum": 0
+    },
+    "currency": {
+      "$ref": "../../models/CurrencyCode.json"
+    }
+  },
+  "required": [
+    "amount",
+    "currency"
+  ]
+}
